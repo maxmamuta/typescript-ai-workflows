@@ -1,0 +1,6 @@
+function greet(name: string): string {
+  return `Hello, ${name}!`;
+}
+
+let message = greet("World");
+console.log(message);

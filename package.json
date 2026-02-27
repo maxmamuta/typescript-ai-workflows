@@ -1,0 +1,30 @@
+{
+  "name": "typescript-ai-workflows",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsx src/index.ts",
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxmamuta/typescript-ai-workflows.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/maxmamuta/typescript-ai-workflows/issues"
+  },
+  "homepage": "https://github.com/maxmamuta/typescript-ai-workflows#readme",
+  "devDependencies": {
+    "@genkit-ai/googleai": "^1.28.0",
+    "genkit": "^1.29.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
